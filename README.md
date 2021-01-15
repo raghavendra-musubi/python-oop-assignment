@@ -2,10 +2,17 @@
 
 Python OOP assignment and problem statement for pre-Django python learning
 
+### Relevant OOP Topics 
+
+- instantiating
+- attributes
+- methods
+- inheritance 
+- method overriding
+
 ***
 
 ## PART A 
-
 
 
 ### Problem Statement
@@ -29,22 +36,32 @@ Python OOP assignment and problem statement for pre-Django python learning
     - Gender
     - Email 
     - Phone Number
-    - ID number
+    - Roll Number
 
 
 #### Children Classes
 
-- `Teacher` 
-- `Student`
 - `Staff`
+    - additional child class attributes:
+        - role
+        - hours worked
+        - hourly wage
+    - method:
+        - calculate pay
+- `Student`
+    - additional child class attributes:
+        - level
+        - test score
+    - method:
+        - check if student passes (test_score more than 5)
+- `Teacher`
+    - additional child class attributes:
+        - subject
+        - weekly salary
+        - weeks worked
+    - method:
+        - calculate weekly salary 
 
-
-### Relevant OOP Topics 
-
-- objects 
-- attributes
-- methods
-- inheritance
 
 ***
 
@@ -85,9 +102,3 @@ Python OOP assignment and problem statement for pre-Django python learning
     - compute area 
     - compute perimeter
 
-### Relevant OOP Topics 
-
-- attributes
-- methods
-- inheritance 
-- method overriding
